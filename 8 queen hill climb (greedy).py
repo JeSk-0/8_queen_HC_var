@@ -91,7 +91,7 @@ best_results = None
 best_probability = 0
 
 # Run simulations
-print("Running first choice hill-climbing simulations...")
+print("Running hill-climbing simulations...")
 results = run_simulations(num_simulations)
 
 # Check if the current results have a better probability
